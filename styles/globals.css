@@ -1,0 +1,20 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.main{
+  background-color:#122c34;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  
+ 
+}
+.maincontent{
+  display: flex;
+  width: 100%;
+}
+

@@ -1,0 +1,58 @@
+.content{
+    flex-basis: 80%;
+    margin-left: 10px;
+    margin-bottom: 75px;
+}
+.content p{
+    margin-top: 5px;
+    color: #16b994;
+} 
+.account{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.accountdiv{
+    border: 1px solid #1fbf9e;
+    padding: 15px;
+   
+}
+.accountdiv :first-child{
+    color: #16b994;
+
+}
+.accountdiv :nth-child(2){
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+.accountdiv :last-child{
+    color: white;
+    margin-top: 3px;
+
+
+}
+.bottom{
+    border:1px solid #1fbf9e;
+    margin-top: 10px;
+    padding: 15px;
+}
+.bottomdiv{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 4px;
+    font-size: 14px;
+}
+@media screen and (max-Width:768px) {
+    .content{
+        flex-basis: 100%;
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    
+}

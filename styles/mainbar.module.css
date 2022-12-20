@@ -1,0 +1,173 @@
+.mainbar{
+    flex-basis: 80%;
+    margin-left: 20px;
+}
+.mainbar p{
+    margin-top: 15px;
+   
+    color: #16b994;
+}
+.numdiv1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #1fbf9e;
+    padding: 10px;
+    margin-top: 5px;
+
+}
+.content :last-child{
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+} 
+.content :first-child{
+    color:#16b994 ;
+    margin-top: 2px;
+    
+}
+.numdiv2, .numdiv4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.left{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+    border: 1px solid #1fbf9e;
+    margin-top: 10px;
+    
+}
+.left1 :last-child{
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+.left1 :first-child{
+    color:#16b994 ;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.left2 p{
+    color:#e4585c;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.numdiv3{
+    border: 1px solid #1fbf9e;
+    margin-top: 10px;
+}
+
+.apy span {
+    color: #16b994;
+    font-size: 10px;
+    font-weight: bold;
+}
+.apy{
+    display: flex;
+    align-items: center;
+    background-color: #1a625a;
+    padding: 4px;
+    margin-top: 10px;
+    border-radius: 2px;
+    margin-left: 13px;
+    width: fit-content;
+    box-sizing: border-box;
+
+}
+.apy :first-child{
+    margin-right: 3px;
+}
+.earn :first-child{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-left:13px ;
+    margin-top: 7px;
+}
+.earn :last-child{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-left: 13px;
+    font-size: 14px;
+}
+.div4left{
+    background-color: #1e414c;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.div4right{
+    background-color: #133035;
+    margin-top: 10px;
+}
+.div4leftright {
+    margin-left:-50px ;
+}
+.div4leftright  :first-child{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.div4leftright  :last-child{
+    background-color:#1db28f;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-align:center ;
+    margin-bottom: 0px;
+
+}
+.div4leftleft{
+    margin-bottom: -60px;
+    margin-top: -60px;
+}
+.div4right{
+    display:grid;
+    place-items: center;
+}
+.div4right p{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.icon{
+    margin-top: -60px;
+    
+}
+.icon span{
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+@media screen and (max-Width:768px) {
+    .mainbar{
+        flex-basis: 100%;
+        font-size: 10px;
+        margin-right: 20px;
+    }
+    .numdiv2, .numdiv4{
+        display: grid;
+        grid-template-columns: 1fr ;
+        
+    }
+    .icon{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        
+    }
+    
+    
+}
